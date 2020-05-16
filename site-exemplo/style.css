@@ -10,14 +10,14 @@
 }
 
 /*CONTAINER*/
-#container{
-    width: 1231.5px;
+.container{
+    width: 1215px;
     margin: auto;
 }
 
 /*MENU*/
 header{
-    height: 70px;
+    height: 80px;
 }
 img{
     height: 56.79px;
@@ -33,18 +33,38 @@ img{
     float: right;
     margin-top: 30px;
     margin-left: 40px;
+    margin-right: 20px;
 }
 
 #menu a{  
     color: #484848;
     text-decoration: none;
-    padding: 13px;
-    font-size: 16.01px;
+    padding: 12px;
+    font-size: 16.3px;
     text-shadow: 0.4px 0.49px 0.02px #484848;
     font-family: Corbel;
 }
 
-/*BODY*/
+.menu:hover{
+    background-color: rgb( 246, 246, 246);
+    border-radius: 60px;
+}
+
+#cadastre{
+    border: rgb( 246, 246, 246) solid 0.8px;
+    border-radius: 60px;
+    box-shadow: rgb( 218, 218, 218) 0px 2px 2px;
+}
+
+#cadastre:hover{
+    box-shadow: rgb( 233, 233, 233) -1px 4px 6px;
+}
+
+hr{
+    border: rgb( 228, 228, 228) solid 0.8px ;
+}
+
+/*DIV*/
 #divBody{
     background-color: green;
     height: 770px;
@@ -56,14 +76,48 @@ article{
 }
 
 section{
-    background-color: yellow;
-    height: 75px;
+    background-color: white;
+    height: 70px;
 }
+
+p{
+    padding-top: 25px;
+}
+
+#linha{
+    margin-top: 5px;
+    margin-left: 12px;
+    width: 137px;
+    border: black solid 1px;
+}
+
+.box{
+    padding-right: 5px;
+    padding-left: 5px;
+    border:  rgb(255, 62, 62) solid 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 62, 62);
+    color: white;
+    text-decoration: none;
+    font-family: Corbel;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: -10px;
+}
+
+.p{
+    text-decoration: none;
+    color: #484848;
+    padding: 12px;
+    font-family: Corbel;
+    font-size: 19px;
+}
+
 aside{
     background-color: black;
     height: 225px;
 }
-
+/*FOOTER*/
 footer{
     background-color: pink;
     height: 360px;
