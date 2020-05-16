@@ -1,0 +1,70 @@
+/*TUDO*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Corbel;
+    src: url(corbel-4.ttf);
+}
+
+/*CONTAINER*/
+#container{
+    width: 1231.5px;
+    margin: auto;
+}
+
+/*MENU*/
+header{
+    height: 70px;
+}
+img{
+    height: 56.79px;
+    margin-left: 0;
+}
+
+#logo{
+    float: left;
+    margin-top: 11.5px;
+}
+
+#menu{
+    float: right;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#menu a{  
+    color: #484848;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 16.01px;
+    text-shadow: 0.4px 0.49px 0.02px #484848;
+    font-family: Corbel;
+}
+
+/*BODY*/
+#divBody{
+    background-color: green;
+    height: 770px;
+}
+
+article{
+    background-color: blue;
+    height: 325px;
+}
+
+section{
+    background-color: yellow;
+    height: 75px;
+}
+aside{
+    background-color: black;
+    height: 225px;
+}
+
+footer{
+    background-color: pink;
+    height: 360px;
+}
