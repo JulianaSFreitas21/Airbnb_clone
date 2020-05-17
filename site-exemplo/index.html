@@ -2,18 +2,24 @@
 <html lang="pt-br">
     <head>
         <meta charset=""UTF-8>
-        <title>Mypage</title>
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Aluguéis por Temporada, Acomodações, Experiências e Lugares - Airbnb</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="import" href="https://commons.wikimedia.org/wiki/File:Font_Awesome_5_solid_globe.svg.html">
     </head>
     <body>
         <header>
             <nav>
                 <div class="container">
                     <div id="logo">
-                        <img src="logo.png">
+                        <img id="imagem" src="logo.png">
                     </div>
                     <div id="menu">
-                        <a class="menu" href="#">img</a>
+                        <a class="image" href="#">
+                            <img id="globo" src="globe.png">
+                            <i id="seta" class="fa fa-chevron-down"></i>
+                        </a>
                         <a class="menu" href="#">Hospede em sua acomodação</a>
                         <a class="menu" href="#">Hospede uma expêriencia</a>
                         <a class="menu" href="#">Ajuda</a>
@@ -56,18 +62,28 @@
                             <p class="caixas">Insira o número de hóspedes</p>
                         </a>
                     </div>
-                    <form id="button"name="formshearch" method="POST">
-                        <button type="submit">
-                            <i class="fas fa-search"></i>
-                        </button>
+                    <p class="lupa">
+                        <a id="button" href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
                         Buscar
-                    </form>
+                    </p>
                 </div>
             </article>
             <aside>
                 <div class="container">
                     <h1>Podemos estar afastados, mas </h1><br>
-                    <h1>vamos superar isso juntos.</h1>
+                    <h1 id="letra">vamos superar isso juntos.</h1>
+                    <div id="duascaixas">
+                        <div id="box1" class="box">
+                            <h2>Experiências Online</h2>
+                            <P class="informacoes">Atividades únicas que podemos fazer juntos, oferecidas por anfitrões de todo o mundo.</P>
+                        </div>
+                        <div id="box2" class="box">
+                            <h2>Informações Atualizadas</h2>
+                            <P class="informacoes">Saiba mais das ações que estamos tomando em relação a COVID-19</P>
+                        </div>
+                    </div>
                 </div> 
             </aside>
         </div>

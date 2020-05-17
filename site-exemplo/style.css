@@ -19,9 +19,29 @@
 header{
     height: 80px;
 }
-img{
+#imagem{
     height: 56.79px;
     margin-left: 0;
+}
+
+#globo{
+    position: relative;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 18px;
+    width: 17px;
+}
+
+#seta{
+    position: absolute;
+    margin-top: 11px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.image{
+    position: relative;
+    margin-right: 5px;
 }
 
 #logo{
@@ -29,11 +49,14 @@ img{
     margin-top: 11.5px;
 }
 
-#menu{
-    float: right;
-    margin-top: 30px;
-    margin-left: 40px;
+#menu:not(:first-of-type){
+    margin-top: 23px;
     margin-right: 20px;
+}
+
+#menu{
+    position: relative;
+    float: right;
 }
 
 #menu a{  
@@ -41,11 +64,11 @@ img{
     text-decoration: none;
     padding: 12px;
     font-size: 16.3px;
-    text-shadow: 0.4px 0.49px 0.02px #484848;
+    text-shadow: 0.6px 0.49px 0.02px #484848;
     font-family: Corbel;
 }
 
-.menu:hover{
+#menu a:hover{
     background-color: rgb( 246, 246, 246);
     border-radius: 60px;
 }
@@ -73,7 +96,7 @@ hr{
 /*ARTICLE*/
 article{
     background-color: #fff;
-    height: 170px;
+    height: 191px;
 }
 
 .busca{
@@ -82,7 +105,7 @@ article{
     background-color: #fff;
     max-width: 1187px;
     width: 90%;
-    padding: 11.2px 0 15.2px 0;
+    /*padding: 9.2px 0 11.2px 0;*/
     margin: 0 auto;
     text-align: left;
 
@@ -141,21 +164,26 @@ article{
         border-right: 1px solid #ccc;
     }
 }
-
-button{
-    height: 20px;
-    width: 20px;
+    
+#button{
+    text-decoration: none;
     background-color: none;
+    color: #fff;
+    font-size: 13px;
+    padding-right: 5px;
+    text-align: left;
 }
 
-form{
+
+.lupa{
+    font-size: 16px;
+    text-shadow: #fff 0.4px 0.3px 0.2px ;
     text-decoration: none;
     color: #fff;
-    margin-top: 4px;
-    margin-right: 20px;
-    padding: 10px 30px;
-    background-image: -webkit-linear-gradient(left,salmon,MediumvioletRed);
-    border-radius: 6px;
+    margin: 11.3px 10px 11px 15px;
+    padding: 13.7px 23px;
+    background-image: -webkit-linear-gradient(left,rgb(228, 29, 72),rgb(218, 22, 120));
+    border-radius: 8px;
     font-family: Corbel;
 }
 
@@ -177,17 +205,16 @@ p{
 }
 
 .box{
-    padding-right: 5px;
-    padding-left: 5px;
-    border:  rgb(255, 62, 62) solid 3px;
-    border-radius: 3px;
-    background-color: rgb(255, 62, 62);
+    padding: 0 3px;
+    border:  rgb(253, 49, 83) solid 3px;
+    border-radius: 4px;
+    background-color: rgb(253, 49, 83);
     color: white;
     text-decoration: none;
     font-family: Corbel;
     font-size: 10px;
-    font-weight: 600;
     margin-left: -10px;
+    text-shadow: #fff 0.5px 0.4px 0.2px ;
 }
 
 .p{
@@ -198,10 +225,52 @@ p{
     font-size: 19px;
 }
 
+/*ASIDE*/
 aside{
-    background-color: green;
+    background-color: #fff;
     height: 725px;
 }
+
+h1{
+    font-family: Corbel;
+    font-size: 52px;
+    margin-left: 13px;
+    font-weight: lighter;
+    background : -webkit-linear-gradient(left,rgb(134, 14, 90),rgb(222,10,100) ,rgb(247, 17, 107));
+  -webkit-background-clip : text;
+  -webkit-text-fill-color : transparent;
+}
+
+#letra{
+    margin-top: -25px;
+}
+
+#duascaixas{
+    margin: 0 20px;
+}
+
+
+.box{
+    margin-top: 40px;
+    height: 470px;
+    width: 570px;
+    border-radius: 20px;
+}
+
+#box1{
+    float: left;
+    background-image: url(primeira.jpg);
+    background-size: 110%;
+    border: none;
+}
+
+#box2{
+    float: right;
+    background-image: url(segunda.jpg);
+    background-size: 100%;
+    border: none;
+}
+
 /*FOOTER*/
 footer{
     background-color: pink;
