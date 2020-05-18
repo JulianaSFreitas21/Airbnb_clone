@@ -90,39 +90,150 @@ hr{
 /*DIV*/
 #divBody{
     background-color: black;
-    height: 1770px;
+    height: 1800px;
 }
 
 #anterior{
     color: white;
 }
 
+h6{
+    margin-top: 60px;
+    margin-left: 13px;
+    font-size: 35px;
+    font-family: Corbel;
+    float: left;
+}
+
+#sucessor{
+    clear: both;
+    float: left;
+    padding-top: 5px;
+    margin-left: 13px;
+    font-size: 18px;
+    font-family: Corbel;
+}
+
+#direitalado{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-family: Corbel;
+    font-size: 17px;
+}
+
 #conjunto{
-    margin: auto 30px;
+    margin-left: 13px;
 }
 
 #tablet{
-    height: 521.57px;
-    width: 502.68px;
+    background-image: url(comida.jpg);
+    background-size: 100%;
+    clear: both;
+    height: 590px;
+    width: 587px;
     float: left;
 }
 
 #notebook{
-    height: 251.33px;
-    width: 245.3px;
+    background-size: 100%;
+    background-image: url(musica.jpg);
+    height: 288.5px;
+    width: 290px;
     float: right;
+    margin-left: 15px;
 }
 
 #violaocelo{
-    height: 251.33px;
-    width: 245.3px;
+    background-size: 100%;
+    background-image: url(ioga.jpg);
+    height: 288.5px;
+    width: 290px;
     float: right;
+    margin-left: 10px;
 }
 
 #pinguim{
-    height: 251.33px;
-    width: 502.68px;
+    background-size: 100%;
+    background-image: url(pinguim.jpg);
+    margin-top: 15px;
+    height: 288.5px;
+    width: 590px;
     float: right;
+}
+
+h4{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    font-size: 16px;
+    font-family: Corbel;
+}
+
+.alturatec{
+    margin-top: 75.5%;
+}
+
+#alturavida{
+    margin-top: 35%;
+}
+
+#alturaletra{
+    margin-top: 87%;
+}
+
+#camadas{
+    background-color: rgb(48, 47, 47);
+    padding-left: 15px;
+    margin-top: -45px;
+    color: white;
+    font-size: 16px;
+    font-family: Corbel;
+    font-weight: bold;
+    padding-bottom: 27px;
+    border-radius: 15px;
+}
+
+#ioga{
+    background-color: rgb(48, 47, 47);
+    padding-left: 15px;
+    margin-top: -45px;
+    color: white;
+    font-size: 16px;
+    font-family: Corbel;
+    font-weight: bold;
+    padding-bottom: 16px;
+    border-radius: 15px;
+}
+
+#girl{
+    background-color: rgb(48, 47, 47);
+    padding-left: 15px;
+    margin-top: -45px;
+    color: white;
+    font-size: 16px;
+    font-family: Corbel;
+    font-weight: bold;
+    padding-bottom: 16px;
+    border-radius: 15px;
+}
+
+#natureza{
+    padding-top: -10px;
+    background-color: rgb(48, 47, 47);
+    padding-left: 15px;
+    margin-top: -45px;
+    color: white;
+    font-size: 16px;
+    font-family: Corbel;
+    font-weight: bold;
+    padding-bottom: 29px;
+    border-radius: 15px;
 }
 
 /*ARTICLE*/
@@ -362,5 +473,5 @@ h2{
 /*FOOTER*/
 footer{
     background-color: pink;
-    height: 360px;
+    height: 760px;
 }
