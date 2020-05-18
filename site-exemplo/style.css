@@ -472,6 +472,29 @@ h2{
 
 /*FOOTER*/
 footer{
-    background-color: pink;
+    background-color: white;
     height: 760px;
+}
+
+#footer{
+    background-color: #eeeeee;
+}
+
+h5{
+    font-family: Corbel;
+    font-size: 24px;
+    color: black;
+    padding: 70px 0 40px 13px;
+}
+
+h3{
+    font-family: Corbel;
+    font-size: 18px;
+    color: black;
+    padding: 0px 0 20px 13px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
 }
