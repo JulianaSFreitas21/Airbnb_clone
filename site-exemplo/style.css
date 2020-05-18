@@ -90,7 +90,39 @@ hr{
 /*DIV*/
 #divBody{
     background-color: black;
-    height: 1370px;
+    height: 1770px;
+}
+
+#anterior{
+    color: white;
+}
+
+#conjunto{
+    margin: auto 30px;
+}
+
+#tablet{
+    height: 521.57px;
+    width: 502.68px;
+    float: left;
+}
+
+#notebook{
+    height: 251.33px;
+    width: 245.3px;
+    float: right;
+}
+
+#violaocelo{
+    height: 251.33px;
+    width: 245.3px;
+    float: right;
+}
+
+#pinguim{
+    height: 251.33px;
+    width: 502.68px;
+    float: right;
 }
 
 /*ARTICLE*/
@@ -228,7 +260,7 @@ p{
 /*ASIDE*/
 aside{
     background-color: #fff;
-    height: 725px;
+    height: 715px;
 }
 
 h1{
