@@ -68,7 +68,7 @@ header{
     font-family: Corbel;
 }
 
-#menu a:hover{
+#menu a:hover:not(:last-of-type){
     background-color: rgb( 246, 246, 246);
     border-radius: 60px;
 }
