@@ -473,52 +473,131 @@ h2{
 /*FOOTER*/
 footer{
     background-color: white;
-    height: 760px;
+    height: 860px;
 }
 
-#footer{
-    background-color: #eeeeee;
+#every{
+    background-color: rgb(244, 244, 244);
+    height: 500px;
+    border-bottom: rgb(221, 220, 220) solid 0.7px;
 }
+
 
 h5{
     font-family: Corbel;
     font-size: 24px;
     color: black;
-    padding: 70px 0 40px 13px;
+    font-weight: lighter;
+    padding: 70px 0 20px 13px;
+    text-shadow: black 0.3px 0.3px 1px;
 }
 
 h3{
     font-family: Corbel;
     font-size: 18px;
     color: black;
-    padding: 0px 0 20px 13px;
-    font-weight: bold;
+    padding-left: 13px;
+    padding-top: 15px;
+    font-weight: lighter;
+    text-shadow: black 0.3px 0.3px 1px;
 }
 
 a{
     text-decoration: none;
 }
-
-@media (min-width: 780px){
-    #footer{
-        flex-direction: column;
-    }
-    .colunas{
-        text-align: left;
-        display: flex;
-        flex: 1;
-        border-bottom: 1px solid #ccc;
-    }
+#coluna1{
+    float: left;
+    padding-right: 0px;
 }
 
-@media (max-width: 767.9px){
-    #footer{
-        flex-direction: column;
-    }
-    .colunas{
-        min-width: 90%;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #ccc;
-    }
+#coluna2{
+    float: left;
+}
+
+#coluna3{
+    margin-right: 0px;
+    float: right;
+    padding-right: 30px;
+}
+
+#coluna4{ 
+    margin-left: 0px;
+    float: right;
+    padding-right: 5px;
+}
+
+.titulo{
+    font-family: Corbel;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    text-shadow:rgb(56, 56, 56) 0.1px 0.1px 0.1px;
+    padding-bottom: 15px;
+    margin-left: 13px;
+}
+
+.subtitulo{
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-left: 13px;
+}
+
+.c1{
+    margin-left: 13px;
+    width: 283px;
+    border: rgb(221, 220, 220) solid 0.7px;
+}
+
+.c2{
+    margin-left: 13px;
+    width: 278px;
+    border: rgb(221, 220, 220) solid 0.7px;
+}
+
+.c3{
+    margin-left: 13px;
+    width: 280px;
+    border: rgb(221, 220, 220) solid 0.7px;
+}
+
+.c4{
+    margin-left: 13px;
+    width: 280px;
+    border: rgb(221, 220, 220) solid 0.7px;
+}
+
+.c5{
+    margin-left: 13px;
+    width: 283px;
+    border: rgb(221, 220, 220) solid 0.3px;
+}
+
+.c6{
+    margin-left: 13px;
+    width: 280px;
+    border: rgb(221, 220, 220) solid 0.3px;
+}
+
+.c7{
+    margin-left: 13px;
+    width: 280px;
+    border: rgb(221, 220, 220) solid 0.5px;
+}
+
+#co1{
+    float: left;
+}
+
+#co2{
+    float: left;
+}
+
+#co3{
+    float: right;
+}
+
+#co4{
+    float: right;
 }
