@@ -473,13 +473,13 @@ h2{
 /*FOOTER*/
 footer{
     background-color: white;
-    height: 860px;
+    height: 900px;
 }
 
 #every{
     background-color: rgb(244, 244, 244);
     height: 500px;
-    border-bottom: rgb(221, 220, 220) solid 0.7px;
+    border-bottom: rgb(221, 220, 220) solid 1px;
 }
 
 
@@ -588,16 +588,59 @@ a{
 
 #co1{
     float: left;
+    margin-left: 13px;
+    margin-right: 103px;
+
 }
 
 #co2{
     float: left;
+    margin-right: 50px;
 }
 
 #co3{
     float: right;
+    margin-right: 130px;
+
 }
 
 #co4{
     float: right;
+    margin-right: 100px;
+}
+
+.tituloS{
+    margin-top: 20px;
+    font-family: Corbel;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-shadow:rgb(0, 0, 0) 0.1px 0.1px 0.1px;
+}
+
+.info1{
+    margin-bottom: -5px;
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.info2{
+    margin-bottom: -5px;
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.info3{
+    margin-bottom: -5px;
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.info4{
+    margin-bottom: -5px;
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
 }
