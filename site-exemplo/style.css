@@ -25,6 +25,7 @@ header{
 }
 
 #globo{
+    color: #484848;
     position: relative;
     margin-top: 5px;
     margin-right: 5px;
@@ -33,6 +34,7 @@ header{
 }
 
 #seta{
+    color: #484848;
     position: absolute;
     margin-top: 11px;
     font-size: 10px;
@@ -589,18 +591,18 @@ a{
 #co1{
     float: left;
     margin-left: 13px;
-    margin-right: 103px;
+    margin-right: 113px;
 
 }
 
 #co2{
     float: left;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 #co3{
     float: right;
-    margin-right: 130px;
+    margin-right: 150px;
 
 }
 
@@ -618,29 +620,113 @@ a{
 }
 
 .info1{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     font-family: Corbel;
     font-size: 16px;
     color: rgb(56, 56, 56);
 }
 
 .info2{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     font-family: Corbel;
     font-size: 16px;
     color: rgb(56, 56, 56);
 }
 
 .info3{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     font-family: Corbel;
     font-size: 16px;
     color: rgb(56, 56, 56);
 }
 
 .info4{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     font-family: Corbel;
     font-size: 16px;
     color: rgb(56, 56, 56);
+}
+
+#final{
+    margin-top: 330px;
+}
+
+#traco{  
+    margin-right: 13px;
+    margin-left: 13px;
+    clear: both;
+}
+
+#termos{ 
+    height: 30px;
+    width: 530px;
+    margin-left: 13px;
+    clear: both;
+    float: left;
+}
+
+#redessociais{
+    padding-right: 10px;
+    margin-top: -30px;
+    height: 30px;
+    width: 330px;
+    clear: both;
+    float: right;
+}
+
+#quatrofrases{
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+}
+
+#frasesimagens{
+    margin-top: 0px;
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+}
+
+#globo2{
+    margin-top: 25px;
+    margin-right: 15px;
+    height: 18px;
+    width: 17px;
+}
+
+.frase{
+    margin-top: -15px;
+    color: rgb(41, 41, 41);
+    font-family: Corbel;
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 5px;
+}
+
+#imagem1{
+    padding-right: 25px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+#imagem2{
+    padding-right: 25px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+#image3{
+    margin-top: -25px;
+    font-size: 25px;
+}
+
+#junto{
+    float: left;
+    margin-left: 320px;
+}
+
+#redes{
+    margin-right: 13px;
+    margin-top: -18px;
+    float: right;
 }
