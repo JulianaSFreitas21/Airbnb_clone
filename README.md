@@ -1,2 +1,2 @@
 # Airbnb_clone
- Clone básico do site, com html e css
+ Clone intermediário do site, somente com html e css.

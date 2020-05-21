@@ -16,6 +16,20 @@
 }
 
 /*MENU*/
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+#header{
+    height: 80px;
+    display: run-in;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    transition: all 0.5s ease;
+}
+
 header{
     height: 80px;
 }
@@ -97,6 +111,7 @@ hr{
 
 #anterior{
     color: white;
+    
 }
 
 h6{
@@ -138,6 +153,7 @@ h6{
     height: 590px;
     width: 587px;
     float: left;
+    cursor: pointer;
 }
 
 #notebook{
@@ -147,6 +163,7 @@ h6{
     width: 290px;
     float: right;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 #violaocelo{
@@ -156,6 +173,7 @@ h6{
     width: 290px;
     float: right;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #pinguim{
@@ -165,6 +183,7 @@ h6{
     height: 288.5px;
     width: 590px;
     float: right;
+    cursor: pointer;
 }
 
 h4{
@@ -319,7 +338,6 @@ article{
     text-align: left;
 }
 
-
 .lupa{
     font-size: 16px;
     text-shadow: #fff 0.4px 0.3px 0.2px ;
@@ -330,6 +348,7 @@ article{
     background-image: -webkit-linear-gradient(left,rgb(228, 29, 72),rgb(218, 22, 120));
     border-radius: 8px;
     font-family: Corbel;
+    cursor: pointer;
 }
 
 /*SECTION*/
@@ -393,6 +412,7 @@ h1{
 #duascaixas{
     margin: 0 15px;
     clear: both;
+    cursor: pointer;
 }
 
 .box{
@@ -441,7 +461,7 @@ h2{
 
 .informacoes{
     background-color:white;
-    padding: 2px 0 22px 15px;
+    padding: 2px 0 23px 15px;
     font-family: Corbel;
     font-size: 16px;
     color: #484848;
@@ -451,7 +471,7 @@ h2{
 
 #informacoes{
     background-color:white;
-    padding: 2px 0 41px 15px;
+    padding: 2px 0 42px 15px;
     font-family: Corbel;
     font-size: 16px;
     color: #484848;
@@ -484,7 +504,6 @@ footer{
     border-bottom: rgb(221, 220, 220) solid 1px;
 }
 
-
 h5{
     font-family: Corbel;
     font-size: 24px;
@@ -500,8 +519,7 @@ h3{
     color: black;
     padding-left: 13px;
     padding-top: 15px;
-    font-weight: lighter;
-    text-shadow: black 0.3px 0.3px 1px;
+    font-weight: bold;
 }
 
 a{
@@ -530,7 +548,7 @@ a{
 
 .titulo{
     font-family: Corbel;
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(56, 56, 56);
     text-shadow:rgb(56, 56, 56) 0.1px 0.1px 0.1px;
     padding-bottom: 15px;
@@ -680,8 +698,14 @@ a{
     color: rgb(41, 41, 41);
 }
 
+.sublime{
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+}
+
 #frasesimagens{
-    margin-top: 0px;
+    margin-top: -15px;
     font-family: Corbel;
     font-size: 16px;
     color: rgb(41, 41, 41);
@@ -695,38 +719,111 @@ a{
 }
 
 .frase{
-    margin-top: -15px;
     color: rgb(41, 41, 41);
     font-family: Corbel;
     font-size: 16px;
     font-weight: normal;
     padding-right: 5px;
+    text-decoration: underline rgb(41, 41, 41);
 }
 
 #imagem1{
+    color: rgb(56, 56, 56);
     padding-right: 25px;
     margin-top: -25px;
     font-size: 20px;
 }
 
 #imagem2{
+    color: rgb(56, 56, 56);
     padding-right: 25px;
     margin-top: -25px;
     font-size: 20px;
 }
 
 #image3{
+    color: rgb(56, 56, 56);
     margin-top: -25px;
     font-size: 25px;
 }
 
 #junto{
+    color: rgb(78, 78, 78);
     float: left;
-    margin-left: 320px;
+    margin-left: 305px;
 }
 
 #redes{
     margin-right: 13px;
     margin-top: -18px;
     float: right;
+}
+
+/*HOUVER*/
+
+#direitalado:hover{
+    background: rgba(255, 255, 255, 0.5)
+}
+
+#coluna1 a:hover{
+    text-decoration: underline black;
+}
+
+#coluna2 a:hover{
+    text-decoration: underline black;
+}
+
+#coluna3 a:hover{
+    text-decoration: underline black;
+}
+
+#coluna4 a:hover{
+    text-decoration: underline black;
+}
+
+.info1:hover{
+    text-decoration: underline rgb(56, 56, 56);
+}
+
+.info2:hover{
+    text-decoration: underline rgb(56, 56, 56);
+}
+
+.info3:hover{
+    text-decoration: underline rgb(56, 56, 56);
+}
+
+.info4:hover{
+    text-decoration: underline rgb(56, 56, 56);
+}
+
+.sublime:hover{
+    text-decoration: underline rgb(56, 56, 56);
+}
+
+#junto img:hover{
+    color: rgb(107, 107, 107);
+}
+
+#redessociais a:hover{
+    color: rgb(87, 87, 87);
+    text-decoration: underline rgb(87, 87, 87);
+}
+a #imagem1:hover{
+    color: rgb(87, 87, 87);
+}
+
+a #imagem2:hover{
+    color: rgb(87, 87, 87)
+}
+
+a #imagem3:hover{
+    color: rgb(87, 87, 87);
+}
+
+.item:hover{
+    border: rgb(228, 228, 228) solid 2px;
+    padding: 11px 0;
+    border-radius: 12px;
+    background-color: white;
 }
